@@ -1,0 +1,40 @@
+<html>
+<h1> Tabel over Jens Hansens dyr </h1>
+<script>
+    function showTable() {
+        document.getElementById(`table`).style.visibility = `visible`;
+    }
+
+    function hideTable() {
+        document.getElementById(`table`).style.visibility = `hidden`;
+    }
+</script>
+
+<body onload="javascript:hideTable()">
+    <input type="button" onClick="javascript:showTable();" value="Se Jensen Hansens besætning">
+    <table id="table" border=1>
+        <tr>
+            <th>Kategori</th>
+            <th>Antal</th>
+        </tr>
+        <tr>
+            <td>Køer</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Hunde</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Grise</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>Får</td>
+            <td>20</td>
+        </tr>
+
+    </table>
+</body>
+
+</html>

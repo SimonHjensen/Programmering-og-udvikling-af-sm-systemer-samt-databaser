@@ -1,0 +1,16 @@
+
+<html>
+    <h1> Tabel over Jens Hansens dyr </h1>
+<script>
+    function showTable(){
+    document.getElementById(`table`).style.visibility = `visible`;   
+    }
+
+    function hideTable(){
+    document.getElementById(`table`).style.visibility = `hidden`;    
+    }
+</script>
+
+<body onload="javascrip:hideTable()">
+</body>
+</html>

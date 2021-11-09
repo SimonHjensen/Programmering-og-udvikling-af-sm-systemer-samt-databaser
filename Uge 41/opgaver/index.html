@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Basis 06</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Basis 06</h1>
+            <p>Please read all the instructions before attempting to solve this exercise:</p>
+            <ul>
+                <li>Do not write JS in HTML</li>
+                <li>You may be required to add IDs and classes to elements on this page</li>
+                <li>Use your solution(s) from last week as inspiration</li>
+                <li>If there is a hint for a task, there is a corresponding code snippet in <b>script.js</b></li>
+            </ul>
+            <div class="container">
+                <div class="item">
+                    <h2>Task 1</h2>
+                    <p id="taskOneParagraph"> Add an event handler to this paragraph. When clicked, it should change the whole text to "This text was changed" (without the quotation marks).</p>
+                </div>
+
+                <div class="item" id="taskTwo">
+                    <h2>Task 2</h2>
+                    <p>When the "ESC" (Escape) key is pressed on your keyboard, the background color of this item should change.</p>
+                </div>
+
+                <div class="item" id='taskThree'>
+                    <h2>Task 3</h2>
+                    <p>When writing a valid CSS background color in the input below, the background of this item should change to that color.</p>
+                    <input type="text" id="task3Input">
+                </div>
+
+                <div class="item">
+                    <h2>Task 4</h2>
+                    <p>The paragraph below should contain the name (value) of the last keyboard button pressed.</p>
+                    <p id="task4Paragraph">change me</p>
+                </div>
+
+                <div class="item" >
+                    <h2>Task 5</h2>
+                    <p id="taskFiveParagraph">When hovering over this paragraph, the text color should change to red after 1000ms (1 second).</p>
+                    <p>Hint: Use setTimeout()</p>
+
+                </div>
+                <div class="item">
+                    <h2>Task 6</h2>
+                    <p id="taskSixParagraph">When hovering over this paragraph, the text color should change to red after 500ms, but it should change back to default 1000ms after removing the cursor.</p>
+                </div>
+
+                <div class="item">
+                    <h2>Task 7</h2>
+                    <p>When clicking on the button below, an alert should pop up after 1 second.</p>
+                    <button id="task7Button">Alert</button>
+                    <p>What happens if you spam click?</p>
+
+                </div>
+                <div class="item">
+                    <h2>Task 8</h2>
+                    <p>When clicking on the button below, an alert should pop up after 1 second. However, spam clicking should not make it give more than 1 alert per 1 second.</p>
+                    <button id="task8Button">Alert</button>
+                    <p>Hint: Use a debouncer</p>
+
+                </div>
+                <div class="item" id="taskNine">
+                    <h2>Task 9</h2>
+                    <p>Add a button below. When clicked, it should change this item's background color to a random background color after 500ms. Incorporate the same debouncer as in task 8.</p>
+                    <button id="task9Button">Skift farve </button>
+                </div>
+                <div class="item">
+                    <h2>Task 10</h2>
+                    <p>When pressing on the submit button, the form should be validated (no empty fields).</p>
+                    <p>Hint: Use the "submit" event</p>
+                    <form id="task10Form">
+                        <label>Username:</label>
+                        <input type="text" id="task10Input">
+                        <button type="submit">Submit</button>
+                    </form>
+                    <p>Why are we using e.preventDefault()?</p>
+                </div>
+                <div class="item">
+                    <h2>Task 11</h2>
+                    <p>Add a form with text input and a submit button below. When pressing on the submit button, the form should be validated (valid email). Use Regex.</p>
+                </div>
+                <div class="item">
+                    <h2>Task 12</h2>
+                    <p>Use JavaScipt to fetch content from an API. When clicking on the button below (you need to add it), it should get some data and dislay it in the next paragraph.</p>
+                    <p id="task12Paragraph">Fetched data should be displayed here</p>
+                    <p>Hint: Fetch from this URL https://jsonplaceholder.typicode.com/todos/1</p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'Verdana';
+}
+
+#container {
+    max-width: 800px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    box-sizing: border-box;
+    border: 1px solid black;
+    max-width: calc(800px / 3);
+    width: calc(800px / 3);
+    padding: 10px;
+}
+
+#taskFiveParagraph{
+    background:none;
+    border:none; 
+}
